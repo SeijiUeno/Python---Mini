@@ -23,3 +23,21 @@ test4 = "The language 'Python' is named after Monty Python, not the snake."
 print(test3)
 print(test4 + dv)
 
+#Case and Methods
+name = "seiji python/ "
+print('$name + title() => ' + name.title())
+print('$name + upper() => ' + name.upper())
+print('$name + lower() => ' + name.lower() + dv)
+
+#combining/concatenating strings + Special
+first_name = 'seiji'
+last_name = 'python'
+full_name = first_name + " " + last_name
+print("Languages:\n\tPython\n\tC\n\tJava\n")
+print(full_name + dv)
+
+#stripping Whitespace
+language = "                            Python                                 \n"
+print("Normal = " + language + "With strip()  = " + language.strip() + dv)
+
+#end
