@@ -40,4 +40,9 @@ print(full_name + dv)
 language = "                            Python                                 \n"
 print("Normal = " + language + "With strip()  = " + language.strip() + dv)
 
+#numbers
+
+number = 42
+print ("this is not a " + str(number) + " project")
+
 #end
